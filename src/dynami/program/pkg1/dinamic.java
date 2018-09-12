@@ -14,10 +14,14 @@ public class dinamic {
         System.out.println("1,1,2,3,5,8,13,21,.....dst.\n");
     }
     public static int tampilinputwes(){
-        
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Bilangan Ke : - ");
+        int n =scanner.nextInt();
+        return n;
     }
     public static void main(String[] args){
         String identitas="Ahmad Dwiyan Anugrah Putra / X RPL 5/ 03";
         au(identitas);
+        int n = tampilinputwes();
     }
 }
